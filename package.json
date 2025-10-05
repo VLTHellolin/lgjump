@@ -1,0 +1,27 @@
+{
+  "name": "lgjump",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.5.2",
+  "description": "",
+  "author": "hellolin <i@hellolin.top>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "check": "eslint . --fix"
+  },
+  "dependencies": {
+    "es-toolkit": "^1.39.10",
+    "jquery": "^3.7.1",
+    "ky": "^1.11.0"
+  },
+  "devDependencies": {
+    "@hellolin/eslint-config": "^1.2.0",
+    "@types/jquery": "^3.5.33",
+    "eslint": "^9.37.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9",
+    "vite-plugin-monkey": "^7.1.4"
+  }
+}
